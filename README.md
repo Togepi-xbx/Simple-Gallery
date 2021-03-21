@@ -1,7 +1,7 @@
 # Web Client & Server Prog. (CPNT-262-A) - Assignment 4
 Boxiang Xu
-- [GH repo](https://github.com/Togepi-xbx/cpnt262-a4)
-- [Deployed Heroku URL](https://cpnt262-a4-bx.herokuapp.com/)
+- [GH repo](https://github.com/Togepi-xbx/cpnt262-a4-2)
+- [Deployed Heroku URL](https://cpnt262-a4-bx-2.herokuapp.com/)
 
 ---
 ## Overall
