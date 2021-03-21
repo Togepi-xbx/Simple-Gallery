@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head') %>
+</head>
+<body>
+  <div class="wrapper">
+    <%- include('../partials/header') %>
+  </div> 
+  <main>
+    <h1>Login</h1>
+    <form class="login" action="https://formspree.io/f/xrgodrob" method="POST">
+      <p class="name-text">Username</p>
+      <input class="name-input" type="text" name="username">
+      <p class="email-text">Password</p>
+      <input class="email-input" type="text" name="password">
+      <input class="send-button" type="submit" value="Send">
+    </form>
+  </main>
+  <%- include('../partials/footer') %>
+
+</body>
+</html>

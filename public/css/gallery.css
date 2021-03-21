@@ -1,0 +1,22 @@
+/* format for gallery */
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* format for figures */
+figure {
+  display: flex;
+  flex-flow: column;
+  margin: 5px;
+
+  border: 1px grey solid;
+  padding: 3px;
+}
+
+/* format for figcaption */
+figcaption {
+  color: black;
+  text-align: center;
+}
