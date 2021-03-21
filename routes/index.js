@@ -8,7 +8,7 @@ router.use((req, res, next) => {
 })
 
 router.get('/', (req, res) => {
-  res.render('../view/pages/index', {pageTitle: "Welcome Stranger!"})
+  res.render('../view/pages/index', {pageTitle: "Index"})
 })
 
 router.get('/login', (req, res) => {

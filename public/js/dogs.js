@@ -1,5 +1,3 @@
-
-
 fetch('./api/v0/dogs')
   .then(function(response){
     if(!response.ok){
