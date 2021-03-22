@@ -2,18 +2,21 @@ require('dotenv').config();
 
 const path = require('path');
 const express = require('express');
-const index = require('./routes/index')
-const dogs = require('./data/dogs')
-const gallery = require('./routes/api/dogs')
+const dogs = require('./data/dogs');
+// load index route
+const index = require('./routes/index');
+// load gallery route
+const gallery = require('./routes/api/dogs');
 
 const app = express();
+
 app.set('view engine','ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/',index);
 
-
+// Create JSON endpoint
 app.get('/api/v0/dogs', (req, res) => {
   res.json (dogs);
 })

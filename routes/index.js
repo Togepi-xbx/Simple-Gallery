@@ -7,6 +7,8 @@ router.use((req, res, next) => {
   next()
 })
 
+
+// Create HTML endpoint
 router.get('/', (req, res) => {
   res.render('../view/pages/index', {pageTitle: "Index"})
 })
